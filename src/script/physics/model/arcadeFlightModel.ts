@@ -14,7 +14,7 @@ const THROTTLE_UP_RATE = 0.02; // Units/second
 const THROTTLE_DOWN_RATE = 0.07; // Units/second
 const YAW_RATE_LANDED = YAW_RATE * 2.0; // Radians/second
 
-const MAX_THRUST = 20; // m/s^2
+const MAX_THRUST = 10; // m/s^2
 const DRY_MASS: number = 20000; // kg
 const WING_AREA: number = 78; // m^2
 const GROUND_AIR_DENSITY: number = 1.225; // kg/m^3
